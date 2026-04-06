@@ -368,56 +368,25 @@ section { padding: 100px 5%; }
 #tentang {
   background: var(--bg-2);
 }
-
-.about-grid {
+ 
+.about-content {
+  margin-bottom: 2rem;
+}
+ 
+.about-text-cols {
   display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 5rem;
-  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 0;
 }
-
-.about-img-wrap { position: relative; }
-
-.about-img-frame {
-  width: 100%;
-  aspect-ratio: 3/4;
-  max-height: 480px;
-  overflow: hidden;
-  border-radius: var(--radius);
-  position: relative;
+ 
+@media (max-width: 680px) {
+  .about-text-cols {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
-
-.about-img-frame img {
-  width: 100%; height: 100%;
-  object-fit: cover;
-  filter: grayscale(15%);
-}
-
-.about-badge {
-  position: absolute; bottom: -20px; right: -20px;
-  background: var(--gold);
-  color: var(--bg);
-  padding: 1.2rem 1.5rem;
-  border-radius: var(--radius);
-  font-family: var(--font-head);
-  text-align: center;
-  box-shadow: var(--shadow);
-}
-.about-badge .big { font-size: 1.8rem; font-weight: 900; display: block; line-height: 1; }
-.about-badge .sm { font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; }
-
-.about-list {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem;
-  margin: 1.8rem 0;
-}
-.about-list li {
-  display: flex; align-items: center; gap: 0.6rem;
-  font-size: 0.88rem; color: #b0a898;
-}
-.about-list li::before {
-  content: '▸'; color: var(--gold); font-size: 0.75rem;
-}
-
+ 
 /* About Skills Table */
 .about-skills-table {
   width: 100%;
@@ -426,16 +395,16 @@ section { padding: 100px 5%; }
   font-size: 0.85rem;
   table-layout: fixed;
 }
-
+ 
 .about-skills-table th:nth-child(1),
 .about-skills-table td:nth-child(1) { width: 45%; }
-
+ 
 .about-skills-table th:nth-child(2),
 .about-skills-table td:nth-child(2) { width: 30%; }
-
+ 
 .about-skills-table th:nth-child(3),
 .about-skills-table td:nth-child(3) { width: 25%; }
-
+ 
 .about-skills-table th {
   text-align: left;
   padding: 0.65rem 1.2rem;
@@ -446,7 +415,7 @@ section { padding: 100px 5%; }
   border-bottom: 1px solid var(--border);
   font-weight: 500;
 }
-
+ 
 .about-skills-table td {
   padding: 0.65rem 1.2rem;
   border-bottom: 1px solid rgba(255,255,255,0.05);
@@ -456,11 +425,11 @@ section { padding: 100px 5%; }
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
+ 
 .about-skills-table tr:hover td {
   background: rgba(201,168,76,0.04);
 }
-
+ 
 .skill-badge {
   display: inline-block;
   padding: 0.18rem 0.7rem;
@@ -471,14 +440,14 @@ section { padding: 100px 5%; }
   text-transform: uppercase;
   color: var(--gold);
 }
-
+ 
 @media (max-width: 1024px) {
   .about-skills-table th,
   .about-skills-table td {
     padding: 0.6rem 1rem;
   }
 }
-
+ 
 @media (max-width: 680px) {
   .about-skills-table { font-size: 0.82rem; }
   .about-skills-table th:last-child,
