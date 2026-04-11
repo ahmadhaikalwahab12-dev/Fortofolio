@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio profesional — Web Developer & UI/UX Designer" />
+  <title>Ahmad Haikal Wahab — Portofolio &amp; Pengalaman</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="beranda.html" class="nav-logo">Ahmadhaikal<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="beranda.html">Beranda</a></li>
+    <li><a href="beranda.html#tentang">Tentang Saya</a></li>
+    <li><a href="beranda.html#pendidikan">Pendidikan</a></li>
+    <li><a href="portfolio.html" class="active">Portofolio</a></li>
+    <li><a href="portfolio.html#pengalaman">Pengalaman</a></li>
+    <li><a href="kontak.html" class="nav-cta">Kontak</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Buka menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="beranda.html">Beranda</a>
+  <a href="beranda.html#tentang">Tentang Saya</a>
+  <a href="portfolio.html">Portofolio</a>
+  <a href="portfolio.html#pengalaman">Pengalaman</a>
+  <a href="beranda.html#pendidikan">Pendidikan</a>
+  <a href="kontak.html">Kontak</a>
+</div>
+
+
+<!-- PAGE BANNER -->
+<div class="page-banner">
+  <div class="page-banner-inner">
+    <h1>Karya &amp; <span>Pengalaman</span></h1>
+    <p>Portofolio proyek pilihan &amp; rekam jejak profesional</p>
+  </div>
+</div>
+
+
+<!-- PORTOFOLIO -->
+<section id="portofolio">
+  <div style="max-width:1200px; margin:0 auto;">
+    <span class="section-label">Karya Saya</span>
+    <h2 class="section-title">Proyek Pilihan</h2>
+    <div class="divider"></div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="web">Web App</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="design">UI/UX Design</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project 1: Bumibersih -->
+      <article class="project-card" data-cat="web">
+        <div class="project-img">
+          <div class="project-placeholder">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <div class="project-overlay">
+            <a href="https://bumi-bersih-five.vercel.app/" class="overlay-link" target="_blank" rel="noopener" title="Live Demo">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="https://github.com/ahmadhaikalwahab12-dev/bumibersih" class="overlay-link" target="_blank" rel="noopener" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Prisma/Firebase</span>
+          </div>
+          <h3 class="project-title">Bumibersih — Platform Kebersihan Lingkungan</h3>
+          <p class="project-desc">
+            Platform website untuk meningkatkan kesadaran dan tindakan kebersihan lingkungan hidup.
+          </p>
+        </div>
+      </article>
+
+      <!-- Project 2: FIR BOOKING -->
+      <article class="project-card" data-cat="mobile">
+        <div class="project-img">
+          <div class="project-placeholder">
+            <i class="fa-solid fa-door-open"></i>
+          </div>
+          <div class="project-overlay">
+            <a href="#" class="overlay-link" title="Live Demo">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="https://github.com/ahmadhaikalwahab12-dev/firbooking" class="overlay-link" target="_blank" rel="noopener" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">Flutter</span>
+            <span class="tag">Dart</span>
+            <span class="tag">Firebase</span>
+          </div>
+          <h3 class="project-title">FIR BOOKING — Peminjaman Ruangan</h3>
+          <p class="project-desc">
+            Aplikasi mobile untuk peminjaman ruangan di kampus Universitas Paramadina secara digital.
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+    <div style="text-align:center; margin-top:3rem;">
+      <a href="https://github.com/ahmadhaikalwahab12-dev" target="_blank" rel="noopener" class="btn">
+        Lihat Semua di GitHub <i class="fa-brands fa-github" style="margin-left:0.4rem;"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- PENGALAMAN -->
+<section id="pengalaman">
+  <div style="max-width:1200px; margin:0 auto;">
+    <span class="section-label">Rekam Jejak</span>
+    <h2 class="section-title">Pengalaman</h2>
+    <div class="divider"></div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <p class="timeline-period">2024 — 2025</p>
+        <h3 class="timeline-role">Bidang Organisasi</h3>
+        <p class="timeline-company">
+          <i class="fa-solid fa-people-group"></i>
+          DKM Paramadina
+        </p>
+        <ul class="timeline-list">
+          <li>Anggota Teknologi dan Kreatif, Kabinet Nawaafi, DKM Paramadina (2024-2025)</li>
+          <li>Anggota Humas Kabinet Naeema, DKM Paramadina (2025-2026)</li>
+          <li>Panitia divisi logistik dalam acara HydroPlus Paramadina Championship tahun 2025</li>
+          <li>Panitia dalam acara IT Fest HIMTI Paramadina tahun 2024</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-period">Project</p>
+        <h3 class="timeline-role">Bidang Project</h3>
+        <p class="timeline-company">
+          <i class="fa-solid fa-laptop-code"></i>
+          Universitas Paramadina
+        </p>
+        <ul class="timeline-list">
+          <li>Membuat website tentang sosialisasi kebersihan lingkungan dengan nama Bumi Bersih</li>
+          <li>Membuat aplikasi mobile untuk peminjaman ruangan di kampus Universitas Paramadina dengan nama FIR BOOKING</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top" style="max-width:1200px; margin:0 auto;">
+    <div class="footer-brand">
+      <a href="beranda.html" class="nav-logo">Ahmadhaikal<span>.</span></a>
+      <p>Web Developer &amp; UI/UX Designer berbasis di Jakarta. Membangun pengalaman digital yang elegan dan berdampak.</p>
+      <div class="social-links" style="margin-top:1.2rem;">
+        <a href="https://github.com/ahmadhaikalwahab12-dev" class="social-link" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/Ahmad-Haikal-Wahab-12" class="social-link" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/ahmdhaikal15" class="social-link" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Navigasi</h5>
+      <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="beranda.html#tentang">Tentang Saya</a></li>
+        <li><a href="beranda.html#pendidikan">Pendidikan</a></li>
+        <li><a href="portfolio.html">Portofolio</a></li>
+        <li><a href="portfolio.html#pengalaman">Pengalaman</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Layanan</h5>
+      <ul>
+        <li><a href="portfolio.html">Frontend</a></li>
+        <li><a href="portfolio.html">Backend</a></li>
+        <li><a href="portfolio.html">UI/UX Design</a></li>
+        <li><a href="portfolio.html">Microsoft Office</a></li>
+        <li><a href="kontak.html">Konsultasi</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Kontak</h5>
+      <ul>
+        <li><a href="mailto:ahmadhaikalwahab12@gmail.com">ahmadhaikalwahab12@gmail.com</a></li>
+        <li><a href="https://wa.me/6287710530316" target="_blank" rel="noopener">+62 877-1053-0316</a></li>
+        <li><a href="#">Jln.Malaka Raya, Perumahan Puri Astina Munjul. RT.001.RW.08. Jakarta Timur</a></li>
+        <li><a href="#">Buka untuk freelance</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom" style="max-width:1200px; margin:0 auto;">
+    <p class="footer-copy">© 2025 <span>Ahmad Haikal Wahab</span>. All rights reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Kebijakan Privasi</a>
+      <a href="#">Syarat &amp; Ketentuan</a>
+      <a href="kontak.html">Hire Me</a>
+    </div>
+  </div>
+</footer>
+
+<button id="scrollTop" aria-label="Kembali ke atas"><i class="fa-solid fa-chevron-up"></i></button>
+
+<script>
+(function () {
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+    const sections = document.querySelectorAll('section[id]');
+    const links    = document.querySelectorAll('.nav-links a');
+    let current    = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
+    });
+    links.forEach(l => {
+      const href = l.getAttribute('href');
+      l.classList.toggle('active',
+        href === 'portfolio.html#' + current ||
+        (href === 'portfolio.html' && current === 'portofolio')
+      );
+    });
+    document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
+  });
+
+  const hamburger  = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      mobileMenu.classList.remove('open');
+    });
+  });
+
+  document.getElementById('scrollTop').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.project-card').forEach(card => {
+        const match = filter === 'all' || card.dataset.cat === filter;
+        card.style.display  = match ? 'block' : 'none';
+        card.style.animation = match ? 'fadeUp 0.4s ease both' : 'none';
+      });
+    });
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity   = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.project-card, .timeline-item').forEach(el => {
+    el.style.opacity    = '0';
+    el.style.transform  = 'translateY(24px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+  });
+})();
+</script>
+
+</body>
+</html>

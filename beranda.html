@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio profesional — Web Developer & UI/UX Designer" />
+  <title>Ahmad Haikal Wahab — Beranda</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="beranda.html" class="nav-logo">Ahmadhaikal<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="beranda.html" class="active">Beranda</a></li>
+    <li><a href="beranda.html#tentang">Tentang Saya</a></li>
+    <li><a href="beranda.html#pendidikan">Pendidikan</a></li>
+    <li><a href="portfolio.html">Portofolio</a></li>
+    <li><a href="portfolio.html#pengalaman">Pengalaman</a></li>
+    <li><a href="kontak.html" class="nav-cta">Kontak</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Buka menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="beranda.html">Beranda</a>
+  <a href="beranda.html#tentang">Tentang Saya</a>
+  <a href="portfolio.html">Portofolio</a>
+  <a href="portfolio.html#pengalaman">Pengalaman</a>
+  <a href="beranda.html#pendidikan">Pendidikan</a>
+  <a href="kontak.html">Kontak</a>
+</div>
+
+
+<!-- HERO -->
+<section id="beranda">
+  <div class="hero-bg"></div>
+  <div class="hero-grid" style="max-width:1200px; margin:0 auto;">
+
+    <div class="animate-fadeup">
+      <p class="hero-eyebrow">Web Developer &amp; Designer</p>
+
+      <h1 class="hero-name">
+        <span class="hero-greeting">Halo, Saya</span>
+        <span class="gold-text name-line">Ahmad Haikal<br>Wahab</span>
+      </h1>
+
+      <p class="hero-role">UI/UX Designer · Web Developer · Microsoft Office</p>
+
+      <p class="hero-desc">
+        Saya adalah seorang web developer dan saya memiliki pengalaman dibidang desain UI/UX.
+        Saya juga dapat mengoperasikan berbagai software Microsoft Office.
+        Dengan keahlian dalam pengembangan web dan desain serta pengalaman di bidang Microsoft Office,
+        saya berkomitmen untuk memberikan hasil terbaik dalam setiap proyek yang saya tangani.
+      </p>
+
+      <div class="hero-actions">
+        <a href="portfolio.html" class="btn btn-solid">Lihat Proyek</a>
+        <a href="kontak.html" class="btn">Hubungi Saya</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Proyek</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">1</span>
+          <span class="stat-label">Tahun Exp</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">1</span>
+          <span class="stat-label">Klien</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-img-wrap animate-fadeup delay-2">
+      <div class="hero-img-frame">
+        <img
+          src="forto.jpeg"
+          alt="Foto Profil Ahmad Haikal Wahab"
+          style="width:100%; height:100%; object-fit:cover; object-position:top; border-radius:6px;"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="avatar-placeholder" style="display:none; border-radius:6px; border:1px solid rgba(201,168,76,0.15);">
+          <i class="fa-solid fa-user-tie" style="font-size:4rem; color:rgba(201,168,76,0.4);"></i>
+          <span>Foto Profil</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- TENTANG SAYA -->
+<section id="tentang">
+  <div style="max-width:1200px; margin:0 auto;">
+    <span class="section-label">Tentang Saya</span>
+    <h2 class="section-title">Kode yang Indah,<br>Pengalaman yang Berkesan</h2>
+    <div class="divider"></div>
+
+    <p style="color:#b0a898; font-size:0.92rem; margin-bottom:1rem; line-height:1.9; max-width:780px;">
+      Saya adalah seorang Web Developer dengan latar belakang desain UI/UX yang kuat.
+      Lahir dan besar di Jakarta, saya terbiasa menggunakan aplikasi seperti Microsoft Word,
+      PowerPoint, dan Microsoft Excel dalam kegiatan kuliah. Di kampus saya juga sudah membuat
+      website dan aplikasi mobile sederhana sebagai project mata kuliah. Saya juga suka membuat
+      desain menggunakan Figma dan mampu bekerja secara tim.
+    </p>
+    <p style="color:#b0a898; font-size:0.92rem; margin-bottom:2rem; line-height:1.9; max-width:780px;">
+      Saya percaya bahwa teknologi dan estetika bisa berjalan beriringan — setiap baris kode
+      adalah kesempatan untuk menciptakan sesuatu yang bermakna.
+    </p>
+
+    <!-- Tabel kemampuan -->
+    <table class="about-skills-table">
+      <thead>
+        <tr>
+          <th>Keahlian</th>
+          <th>Kategori</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>JavaScript</td>
+          <td>Frontend</td>
+          <td><span class="skill-badge">Aktif</span></td>
+        </tr>
+        <tr>
+          <td>React &amp; Next.js</td>
+          <td>Frontend</td>
+          <td><span class="skill-badge">Aktif</span></td>
+        </tr>
+        <tr>
+          <td>Node.js</td>
+          <td>Backend</td>
+          <td><span class="skill-badge">Aktif</span></td>
+        </tr>
+        <tr>
+          <td>Microsoft Office</td>
+          <td>Produktivitas</td>
+          <td><span class="skill-badge">Aktif</span></td>
+        </tr>
+        <tr>
+          <td>Firebase / Prisma</td>
+          <td>Database</td>
+          <td><span class="skill-badge">Aktif</span></td>
+        </tr>
+        <tr>
+          <td>Figma</td>
+          <td>Design</td>
+          <td><span class="skill-badge">Aktif</span></td>
+        </tr>
+        <tr>
+          <td>Vercel</td>
+          <td>Deployment</td>
+          <td><span class="skill-badge">Aktif</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:2rem;">
+      <a href="portfolio.html" class="btn btn-solid">Lihat Proyek Saya</a>
+      <a href="kontak.html" class="btn">Kontak</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- PENDIDIKAN -->
+<section id="pendidikan">
+  <div style="max-width:1200px; margin:0 auto;">
+    <span class="section-label">Latar Belakang</span>
+    <h2 class="section-title">Pendidikan</h2>
+    <div class="divider"></div>
+    <div class="edu-grid">
+
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+        <p class="edu-period">SD</p>
+        <h3 class="edu-degree">SDN 15 Pagi</h3>
+        <p class="edu-school">Jakarta Timur</p>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fa-solid fa-school-flag"></i></div>
+        <p class="edu-period">SMP</p>
+        <h3 class="edu-degree">SMPN 210</h3>
+        <p class="edu-school">Jakarta Timur</p>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fa-solid fa-building-columns"></i></div>
+        <p class="edu-period">SMA</p>
+        <h3 class="edu-degree">SMA PGRI 4</h3>
+        <p class="edu-school">Jakarta Timur</p>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <p class="edu-period">2023 — Sekarang</p>
+        <h3 class="edu-degree">S1 Teknik Informatika</h3>
+        <p class="edu-school">Universitas Paramadina · Jakarta</p>
+        <p class="edu-desc">
+          Sedang menempuh pendidikan sarjana di bidang Teknik Informatika,
+          aktif dalam organisasi kampus dan pengembangan proyek teknologi.
+        </p>
+      </div>
+
+      <div class="edu-card" style="border-style:dashed; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:200px;">
+        <div class="edu-icon" style="margin:0 auto 1rem;">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p style="font-size:0.85rem; color:var(--gray);">Terus belajar &amp; berkembang</p>
+        <a href="kontak.html" class="btn" style="margin-top:1rem; font-size:0.75rem; padding:0.5rem 1.2rem;">Kolaborasi?</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top" style="max-width:1200px; margin:0 auto;">
+    <div class="footer-brand">
+      <a href="beranda.html" class="nav-logo">Ahmadhaikal<span>.</span></a>
+      <p>Web Developer &amp; UI/UX Designer berbasis di Jakarta. Membangun pengalaman digital yang elegan dan berdampak.</p>
+      <div class="social-links" style="margin-top:1.2rem;">
+        <a href="https://github.com/ahmadhaikalwahab12-dev" class="social-link" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/Ahmad-Haikal-Wahab-12" class="social-link" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/ahmdhaikal15" class="social-link" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Navigasi</h5>
+      <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="beranda.html#tentang">Tentang Saya</a></li>
+        <li><a href="beranda.html#pendidikan">Pendidikan</a></li>
+        <li><a href="portfolio.html">Portofolio</a></li>
+        <li><a href="portfolio.html#pengalaman">Pengalaman</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Layanan</h5>
+      <ul>
+        <li><a href="portfolio.html">Frontend</a></li>
+        <li><a href="portfolio.html">Backend</a></li>
+        <li><a href="portfolio.html">UI/UX Design</a></li>
+        <li><a href="portfolio.html">Microsoft Office</a></li>
+        <li><a href="kontak.html">Konsultasi</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Kontak</h5>
+      <ul>
+        <li><a href="mailto:ahmadhaikalwahab12@gmail.com">ahmadhaikalwahab12@gmail.com</a></li>
+        <li><a href="https://wa.me/6287710530316" target="_blank" rel="noopener">+62 877-1053-0316</a></li>
+        <li><a href="#">Jln.Malaka Raya, Perumahan Puri Astina Munjul. RT.001.RW.08. Jakarta Timur</a></li>
+        <li><a href="#">Buka untuk freelance</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom" style="max-width:1200px; margin:0 auto;">
+    <p class="footer-copy">© 2025 <span>Ahmad Haikal Wahab</span>. All rights reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Kebijakan Privasi</a>
+      <a href="#">Syarat &amp; Ketentuan</a>
+      <a href="kontak.html">Hire Me</a>
+    </div>
+  </div>
+</footer>
+
+<button id="scrollTop" aria-label="Kembali ke atas"><i class="fa-solid fa-chevron-up"></i></button>
+
+<script>
+(function () {
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+
+    const sections = document.querySelectorAll('section[id]');
+    const links    = document.querySelectorAll('.nav-links a');
+    let current    = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
+    });
+    links.forEach(l => {
+      const href = l.getAttribute('href');
+      l.classList.toggle('active',
+        href === 'beranda.html#' + current ||
+        (href === 'beranda.html' && current === 'beranda')
+      );
+    });
+
+    document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
+  });
+
+  const hamburger  = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      mobileMenu.classList.remove('open');
+    });
+  });
+
+  document.getElementById('scrollTop').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity   = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.edu-card').forEach(el => {
+    el.style.opacity    = '0';
+    el.style.transform  = 'translateY(24px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+  });
+})();
+</script>
+
+</body>
+</html>
